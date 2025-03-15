@@ -1,0 +1,55 @@
+{
+  "name": "CodeAurora",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F5F5F5",
+    "editor.foreground": "#333333",
+    "editorCursor.foreground": "#F59E0B",
+    "editor.selectionBackground": "#D1FAE5",
+    "editor.lineHighlightBackground": "#E5E7EB",
+    "editor.selectionHighlightBackground": "#d1fae500",
+    "editorBracketMatch.border": "#9333EA",
+    "editorBracketMatch.background": "#D1D5DB",
+    "editorGutter.modifiedBackground": "#16A34A"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#64748B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#9333EA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#16A34A"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#F59E0B"
+      }
+    },
+    {
+      "scope": ["function"],
+      "settings": {
+        "foreground": "#FACC15"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#EC4899"
+      }
+    }
+  ]
+}

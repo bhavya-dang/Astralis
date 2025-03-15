@@ -1,0 +1,55 @@
+{
+  "name": "Eclipse",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#121212",
+    "editor.foreground": "#E5E5E5",
+    "editorCursor.foreground": "#FACC15",
+    "editor.selectionBackground": "#264F78",
+    "editor.lineHighlightBackground": "#1F1F1F",
+    "editor.selectionHighlightBackground": "#264f7800",
+    "editorBracketMatch.border": "#FACC15",
+    "editorBracketMatch.background": "#333333",
+    "editorGutter.modifiedBackground": "#E879F9"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#818CF8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#E879F9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#A3E635"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#F59E0B"
+      }
+    },
+    {
+      "scope": ["function"],
+      "settings": {
+        "foreground": "#FACC15"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#F472B6"
+      }
+    }
+  ]
+}

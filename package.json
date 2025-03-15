@@ -1,0 +1,21 @@
+{
+  "name": "astralis-theme",
+  "displayName": "Astralis",
+  "description": "A cosmic-inspired VS Code theme bundle featuring Eclipse (Dark) and Aurora (Light).",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eclipse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Eclipse-color-theme.json"
+      }
+    ]
+  }
+}
